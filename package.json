@@ -1,0 +1,30 @@
+{
+  "name": "grunt-signal-arr-proxygen",
+  "version": "0.0.1",
+  "description": "Wraps the signal-arr-proxygen utility so that it can be run as part of a grunt build process.",
+  "repository": "",
+  "author": {
+    "name": "Stephen C. Austin",
+    "email": "stephen.austin@rovisys.com",
+    "url": "http://www.rovisys.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
