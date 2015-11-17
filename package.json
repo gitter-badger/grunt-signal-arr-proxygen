@@ -1,6 +1,6 @@
 {
   "name": "grunt-signal-arr-proxygen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wraps the signal-arr-proxygen utility so that it can be run as part of a grunt build process.",
   "repository": "",
   "author": {
