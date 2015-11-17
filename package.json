@@ -26,5 +26,8 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "signal-arr-proxygen": "0.0.3"
   }
 }

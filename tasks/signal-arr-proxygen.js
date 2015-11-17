@@ -1,6 +1,6 @@
 /*
  * grunt-signal-arr-proxygen
- * 
+ *
  *
  * Copyright (c) 2015 Stephen C. Austin
  * Licensed under the MIT license.
@@ -13,13 +13,13 @@ module.exports = function (grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('signal_arr_proxygen', 'Wraps the signal-arr-proxygen utility so that it can be run as part of a grunt build process.', function () {
-
+  grunt.registerMultiTask('signal-arr-proxygen', 'Wraps the signal-arr-proxygen utility so that it can be run as part of a grunt build process.', function () {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       punctuation: '.',
       separator: ', '
     });
+    var processor = require('signal-arr-proxygen/dist/processor');
 
     // Iterate over all specified file groups.
     this.files.forEach(function (file) {
