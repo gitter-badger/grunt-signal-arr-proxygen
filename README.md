@@ -1,5 +1,7 @@
 # grunt-signal-arr-proxygen
 
+[![Join the chat at https://gitter.im/RoviSys/grunt-signal-arr-proxygen](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/RoviSys/grunt-signal-arr-proxygen?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Wraps the signal-arr-proxygen utility so that it can be run as part of a grunt build process.
 
 ## Getting Started
